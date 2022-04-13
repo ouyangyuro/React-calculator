@@ -141,6 +141,7 @@ function Cal() {
               .
             </button>
             <button
+              name="0"
               onClick={handleClick}
               className="text-cyan-400 bg-slate-600 hover:bg-cyan-50 rounded-2xl"
             >
