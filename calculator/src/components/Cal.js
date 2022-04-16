@@ -25,17 +25,15 @@ function Cal() {
         <div className="w-full max-w-sm mx-auto bg-slate-800 rounded-2xl p-4">
           <div className="grid grid-rows-[_repeat(6,_minmax(0,_70px))] grid-cols-4 gap-4">
             <div className="bg-slate-800 col-span-4 output rounded-t-2xl flex justify-end items-center p-2 break-all overflow-y-auto">
-              <div className="cur_operand text-slate-50 text-lg">{result}</div>
+              <div className="text-slate-50 text-lg">{result}</div>
             </div>
             <button
-              id="clear"
               onClick={handleClear}
               className="col-span-2 text-cyan-400 bg-slate-600 hover:bg-cyan-50 rounded-2xl"
             >
               AC
             </button>
             <button
-              id="back"
               onClick={handleBack}
               className="text-cyan-400 bg-slate-600 hover:bg-cyan-50 rounded-2xl"
             >
