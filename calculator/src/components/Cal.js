@@ -21,7 +21,6 @@ function Cal() {
   };
   return (
     <>
-      {' '}
       <div className="w-full px-4 py-16">
         <div className="w-full max-w-sm mx-auto bg-slate-800 rounded-2xl p-4">
           <div className="grid grid-rows-[_repeat(6,_minmax(0,_70px))] grid-cols-4 gap-4">
